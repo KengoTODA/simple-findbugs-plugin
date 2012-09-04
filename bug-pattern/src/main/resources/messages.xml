@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MessageCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="messagecollection.xsd">
+
+  <Plugin>
+    <ShortDescription>Simple FindBugs Plugin</ShortDescription>
+    <Details>Simple FindBugs Plugin</Details>
+  </Plugin>
+  <Detector class="jp.skypencil.findbugs.simple.OriginalDetector">
+    <Details>Detects simple bug</Details>
+  </Detector>
+  <BugPattern type="SIMPLE_BUG">
+    <ShortDescription>It is a simple bug.</ShortDescription>
+    <LongDescription>It is a simple bug.</LongDescription>
+  </BugPattern>
+  <BugCode abbrev="SIMPLE">Simple FindBugs Plugin</BugCode>
+</MessageCollection>
